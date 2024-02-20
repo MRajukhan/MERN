@@ -35,6 +35,7 @@ const App = () => {
 			[e.target.name]: parseInt(e.target.value),
 		});
 	};
+	// i am raju
 
 	const handleClearOps = () => {
 		setInputState({ ...initialInputState });
